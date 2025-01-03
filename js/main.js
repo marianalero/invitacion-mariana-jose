@@ -308,6 +308,7 @@
 		var message= "Hola,";
 		if(radioValue == "confirm")
 		{
+			var numbertext = parseInt(number) > 1 ? number+' personas' : '1 persona';
 			message += message +"%20quiero%20confirmar%20mi%20asistencia%20para%20la%20boda%20de%20Mariana%20y%20José%20para%20"+numbertext+". Mi nombre es "+name;
 		}
 		else	
